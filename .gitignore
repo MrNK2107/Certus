@@ -1,0 +1,12 @@
+node_modules/
+.next/
+coverage/
+dist/
+build/
+.env
+.env.local
+*.log
+
+# Ignore all markdown files except README.md
+*.md
+!README.md
