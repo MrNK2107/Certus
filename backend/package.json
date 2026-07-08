@@ -1,0 +1,31 @@
+{
+  "name": "@msme-credit/backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@msme-credit/shared": "file:../shared",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/supertest": "^7.2.0",
+    "@types/uuid": "^9.0.8",
+    "@vitest/coverage-v8": "^4.1.10",
+    "supertest": "^7.2.2",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^4.1.10"
+  }
+}
