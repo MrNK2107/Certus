@@ -1,0 +1,71 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  border-radius: var(--radius-xl);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  white-space: nowrap;
+}
+
+.sm {
+  padding: 1px var(--spacing-2);
+  font-size: var(--font-size-xs);
+}
+
+.md {
+  padding: var(--spacing-1) var(--spacing-3);
+  font-size: var(--font-size-sm);
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.positive {
+  background-color: var(--color-positive-bg);
+  color: var(--color-positive-text);
+}
+
+.positive .dot {
+  background-color: var(--color-positive);
+}
+
+.caution {
+  background-color: var(--color-caution-bg);
+  color: var(--color-caution-text);
+}
+
+.caution .dot {
+  background-color: var(--color-caution);
+}
+
+.risk {
+  background-color: var(--color-risk-bg);
+  color: var(--color-risk-text);
+}
+
+.risk .dot {
+  background-color: var(--color-risk);
+}
+
+.info {
+  background-color: var(--color-info-bg);
+  color: var(--color-info-text);
+}
+
+.info .dot {
+  background-color: var(--color-info);
+}
+
+.missing {
+  background-color: var(--color-missing-bg);
+  color: var(--color-missing-text);
+}
+
+.missing .dot {
+  background-color: var(--color-missing);
+}

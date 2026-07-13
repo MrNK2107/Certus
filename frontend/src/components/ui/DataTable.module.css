@@ -1,0 +1,131 @@
+.wrapper {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.headerRow {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.headerCell {
+  padding: var(--spacing-3) var(--spacing-4);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: left;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.headerCellSortable {
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.headerCellSortable:hover {
+  color: var(--text-primary);
+}
+
+.sortIcon {
+  margin-left: var(--spacing-1);
+  font-size: var(--font-size-xs);
+  color: var(--text-tertiary);
+}
+
+.sortIconActive {
+  color: var(--color-navy-500);
+}
+
+.bodyRow {
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.15s ease;
+}
+
+.bodyRow:last-child {
+  border-bottom: none;
+}
+
+.bodyRow:hover {
+  background-color: var(--bg-tertiary);
+}
+
+.bodyRowClickable {
+  cursor: pointer;
+}
+
+.bodyCell {
+  padding: var(--spacing-3) var(--spacing-4);
+  font-size: var(--font-size-sm);
+  color: var(--text-primary);
+  vertical-align: middle;
+}
+
+.emptyRow td {
+  padding: var(--spacing-8) var(--spacing-4);
+  text-align: center;
+  color: var(--text-tertiary);
+  font-size: var(--font-size-sm);
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-3) var(--spacing-4);
+  border-top: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
+}
+
+.paginationInfo {
+  font-size: var(--font-size-xs);
+  color: var(--text-tertiary);
+}
+
+.paginationControls {
+  display: flex;
+  gap: var(--spacing-1);
+}
+
+.pageButton {
+  padding: var(--spacing-1) var(--spacing-2);
+  min-width: 32px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: center;
+}
+
+.pageButton:hover:not(:disabled) {
+  background-color: var(--bg-tertiary);
+  border-color: var(--color-slate-300);
+}
+
+.pageButton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pageButtonActive {
+  background-color: var(--color-navy-700);
+  border-color: var(--color-navy-700);
+  color: var(--color-white);
+}
+
+.pageButtonActive:hover {
+  background-color: var(--color-navy-800);
+}

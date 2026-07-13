@@ -1,0 +1,95 @@
+.banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-3);
+  padding: var(--spacing-3) var(--spacing-4);
+  border-radius: var(--radius-md);
+  border-left: 4px solid transparent;
+}
+
+.icon {
+  font-size: var(--font-size-lg);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-1);
+}
+
+.message {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+}
+
+.approve {
+  background-color: var(--color-positive-bg);
+  border-left-color: var(--color-positive);
+}
+
+.approve .title {
+  color: var(--color-positive-text);
+}
+
+.approve .message {
+  color: var(--color-positive-text);
+}
+
+.decline {
+  background-color: var(--color-risk-bg);
+  border-left-color: var(--color-risk);
+}
+
+.decline .title {
+  color: var(--color-risk-text);
+}
+
+.decline .message {
+  color: var(--color-risk-text);
+}
+
+.refer {
+  background-color: var(--color-caution-bg);
+  border-left-color: var(--color-caution);
+}
+
+.refer .title {
+  color: var(--color-caution-text);
+}
+
+.refer .message {
+  color: var(--color-caution-text);
+}
+
+.moreData {
+  background-color: var(--color-info-bg);
+  border-left-color: var(--color-info);
+}
+
+.moreData .title {
+  color: var(--color-info-text);
+}
+
+.moreData .message {
+  color: var(--color-info-text);
+}
+
+.default {
+  background-color: var(--bg-tertiary);
+  border-left-color: var(--color-slate-400);
+}
+
+.default .title {
+  color: var(--text-secondary);
+}
+
+.default .message {
+  color: var(--text-secondary);
+}

@@ -8,5 +8,5 @@ build/
 *.log
 
 # Ignore all markdown files except README.md
-*.md
+**/*.md
 !README.md

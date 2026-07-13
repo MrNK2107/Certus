@@ -1,0 +1,53 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  height: var(--header-height);
+  background-color: var(--color-teal-600);
+  flex-shrink: 0;
+  z-index: 10;
+  box-shadow: var(--shadow-sm);
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  min-height: 0; /* Important for inner scrolling */
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  background-color: var(--color-navy-900);
+  color: var(--color-white);
+  flex-shrink: 0;
+  overflow-y: auto;
+  border-right: 1px solid var(--border-color);
+  z-index: 5;
+}
+
+.mainWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: var(--bg-secondary);
+}
+
+.content {
+  flex: 1;
+  padding: var(--spacing-6);
+  overflow-y: auto;
+}
+
+.contextPanel {
+  width: var(--context-panel-width);
+  background-color: var(--bg-primary);
+  border-left: 1px solid var(--border-color);
+  flex-shrink: 0;
+  overflow-y: auto;
+  padding: var(--spacing-4);
+}
