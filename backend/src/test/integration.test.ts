@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import request from 'supertest';
 import { app } from '../main';
 import { mockDataStore } from '../data/mock-data';
-import { CaseState, ConsentStatus, SourceType } from '@msme-credit/shared';
+import { CaseState, ConsentStatus, SourceType } from '../shared';
 
 beforeEach(() => {
   mockDataStore.reset();

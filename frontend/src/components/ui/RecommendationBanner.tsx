@@ -1,4 +1,4 @@
-import type { DecisionType } from '@msme-credit/shared';
+import type { DecisionType } from '../../shared';
 import styles from './RecommendationBanner.module.css';
 
 interface RecommendationBannerProps {

@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import { User, AuditActionType } from '@msme-credit/shared';
+import { User, AuditActionType } from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 import { auditStore } from '../audit/audit-store';
 import { wrapAsync, AppError } from '../../middleware';

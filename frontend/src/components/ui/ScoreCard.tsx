@@ -1,4 +1,4 @@
-import type { PillarScore, SourceType } from '@msme-credit/shared';
+import type { PillarScore, SourceType } from '../../shared';
 import { ReasonCodeBadge } from './ReasonCodeBadge';
 import styles from './ScoreCard.module.css';
 

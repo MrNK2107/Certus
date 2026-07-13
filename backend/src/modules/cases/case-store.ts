@@ -1,6 +1,6 @@
 import {
   Case, CaseState, CaseSummary, FilterParams, PaginationParams
-} from '@msme-credit/shared';
+} from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 
 export class CaseStore {

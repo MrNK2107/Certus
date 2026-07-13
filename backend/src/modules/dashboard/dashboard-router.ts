@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { CaseState, DecisionType } from '@msme-credit/shared';
+import { CaseState, DecisionType } from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 import { wrapAsync } from '../../middleware';
 

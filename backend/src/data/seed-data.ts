@@ -5,7 +5,7 @@ import {
   FHCResult, PillarScore, HealthBand, PillarName, NormalizedObservation, Anomaly,
   DecisionRecord, DecisionType,
   AuditEvent, AuditActionType,
-} from '@msme-credit/shared';
+} from '../shared';
 import { MockDataStore } from './mock-data';
 
 const T = (daysOffset = 0) => {

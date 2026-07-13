@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
     "outDir": "dist",
@@ -10,10 +10,7 @@
     "resolveJsonModule": true,
     "declaration": true,
     "sourceMap": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@shared/*": ["../shared/src/*"]
-    }
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

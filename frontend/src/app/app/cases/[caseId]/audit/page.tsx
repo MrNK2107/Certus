@@ -1,4 +1,4 @@
-import type { AuditEvent } from '@msme-credit/shared';
+import type { AuditEvent } from '../../../../../shared';
 import { AuditRow } from '@/components/ui';
 import { apiFetchAll } from '@/lib/api';
 

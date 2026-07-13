@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { AuditActionType } from '@msme-credit/shared';
+import { AuditActionType } from '../../shared';
 import { auditStore } from './audit-store';
 import { wrapAsync, AppError } from '../../middleware';
 

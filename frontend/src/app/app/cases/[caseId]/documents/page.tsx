@@ -1,4 +1,4 @@
-import type { SourceDocument } from '@msme-credit/shared';
+import type { SourceDocument } from '../../../../../shared';
 import { apiFetchAll } from '@/lib/api';
 
 function groupBySourceType(docs: SourceDocument[]): Record<string, SourceDocument[]> {

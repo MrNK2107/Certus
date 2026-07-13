@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { HealthBand, SourceType } from '@msme-credit/shared';
+import { HealthBand, SourceType } from '../../shared';
 import { ScoringService } from './scoring-service';
 import { mockDataStore } from '../../data/mock-data';
 

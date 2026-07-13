@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import { AlertStatus } from '@msme-credit/shared';
+import { AlertStatus } from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 import { wrapAsync, AppError } from '../../middleware';
 

@@ -1,4 +1,4 @@
-import type { Anomaly } from '@msme-credit/shared';
+import type { Anomaly } from '../../shared';
 import styles from './AnomalyBanner.module.css';
 
 interface AnomalyBannerProps {

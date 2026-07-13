@@ -1,7 +1,7 @@
 import {
   FHCResult, PillarScore, HealthBand, PillarName, SourceType,
   Case, CaseState, Anomaly
-} from '@msme-credit/shared';
+} from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 import { v4 as uuidv4 } from 'uuid';
 

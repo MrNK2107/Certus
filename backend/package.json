@@ -17,7 +17,6 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@msme-credit/shared": "file:../shared",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/supertest": "^7.2.0",

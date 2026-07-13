@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { CaseState } from '@msme-credit/shared';
+import { CaseState } from '../../shared';
 import { CaseStateMachine } from './case-state-machine';
 
 describe('CaseStateMachine', () => {

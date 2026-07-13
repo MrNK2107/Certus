@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { AuditActionType } from '@msme-credit/shared';
+import { AuditActionType } from '../../shared';
 import { AuditStore } from './audit-store';
 import { mockDataStore } from '../../data/mock-data';
 

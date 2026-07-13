@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { StatusChip } from '@/components/ui';
-import { CaseState, SectorType, DecisionType } from '@msme-credit/shared';
+import { CaseState, SectorType, DecisionType } from '../../../shared';
 
 interface QueueItem {
   caseId: string;

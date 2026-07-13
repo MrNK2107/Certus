@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import { DecisionRequest, OverrideRequest, AuditActionType, CaseState } from '@msme-credit/shared';
+import { DecisionRequest, OverrideRequest, AuditActionType, CaseState } from '../../shared';
 import { decisionStore } from './decision-store';
 import { caseStore } from '../cases/case-store';
 import { auditStore } from '../audit/audit-store';

@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import { Case, CaseState, AuditActionType, FilterParams, PaginationParams } from '@msme-credit/shared';
+import { Case, CaseState, AuditActionType, FilterParams, PaginationParams } from '../../shared';
 import { caseStore } from './case-store';
 import { caseStateMachine } from './case-state-machine';
 import { auditStore } from '../audit/audit-store';

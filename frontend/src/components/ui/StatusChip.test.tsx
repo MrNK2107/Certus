@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { CaseState, ConsentStatus, HealthBand } from '@msme-credit/shared';
+import { CaseState, ConsentStatus, HealthBand } from '../../shared';
 import { StatusChip } from './StatusChip';
 
 describe('StatusChip', () => {

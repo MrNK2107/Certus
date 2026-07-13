@@ -1,4 +1,4 @@
-import { ConsentArtifact, ConsentStatus } from '@msme-credit/shared';
+import { ConsentArtifact, ConsentStatus } from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 
 export class ConsentStore {

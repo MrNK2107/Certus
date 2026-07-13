@@ -1,4 +1,4 @@
-import { AuditEvent, AuditActionType, AccessLog } from '@msme-credit/shared';
+import { AuditEvent, AuditActionType, AccessLog } from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 
 export class AuditStore {

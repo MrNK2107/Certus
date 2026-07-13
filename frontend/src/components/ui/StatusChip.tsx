@@ -1,4 +1,4 @@
-import type { CaseState, ConsentStatus } from '@msme-credit/shared';
+import type { CaseState, ConsentStatus } from '../../shared';
 import styles from './StatusChip.module.css';
 
 type ChipColor = 'positive' | 'caution' | 'risk' | 'info' | 'missing';

@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import {
   SourceType, SourceLinkStatus, FetchStatus,
   SourceConnection, SourceFetch, AuditActionType,
-} from '@msme-credit/shared';
+} from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 import { caseStore } from '../cases/case-store';
 import { auditStore } from '../audit/audit-store';

@@ -8,7 +8,7 @@ import {
   User, UserRole, Team, Branch,
   Policy, PolicyRule, ModelVersion, ReasonCodeEntry, RetentionPolicy, PurgeLog, PermissionMatrix, LimitConfig, FeatureFlag, IntegrationConfig, PlatformSettings,
   ConnectorHealth, Alert, AlertSeverity, AlertStatus, ReconciliationRecord, SLAMetric, PlatformHealth,
-} from '@msme-credit/shared';
+} from '../shared';
 import { loadSeedData } from './seed-data';
 
 const now = new Date().toISOString();

@@ -1,4 +1,4 @@
-import type { SourceConnection } from '@msme-credit/shared';
+import type { SourceConnection } from '../../shared';
 import styles from './SourceTile.module.css';
 
 interface SourceTileProps {

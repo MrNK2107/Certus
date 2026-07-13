@@ -1,5 +1,5 @@
-import type { PillarScore, SourceType } from '@msme-credit/shared';
-import { SourceType as SourceTypeEnum } from '@msme-credit/shared';
+import type { PillarScore, SourceType } from '../../shared';
+import { SourceType as SourceTypeEnum } from '../../shared';
 import { ScoreCard } from './ScoreCard';
 import styles from './PillarGrid.module.css';
 

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { ConsentStatus, SourceType } from '@msme-credit/shared';
+import { ConsentStatus, SourceType } from '../../shared';
 import { ConsentStore } from './consent-store';
 import { mockDataStore } from '../../data/mock-data';
 

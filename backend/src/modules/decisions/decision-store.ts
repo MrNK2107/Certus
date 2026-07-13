@@ -1,4 +1,4 @@
-import { DecisionRecord, DecisionRequest, OverrideRequest } from '@msme-credit/shared';
+import { DecisionRecord, DecisionRequest, OverrideRequest } from '../../shared';
 import { mockDataStore } from '../../data/mock-data';
 import { v4 as uuidv4 } from 'uuid';
 

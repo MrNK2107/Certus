@@ -1,4 +1,4 @@
-import { CaseState } from '@msme-credit/shared';
+import { CaseState } from '../../shared';
 
 const TRANSITIONS: Map<CaseState, CaseState[]> = new Map([
   [CaseState.DRAFT, [CaseState.CONSENT_PENDING, CaseState.FAILED, CaseState.EXPIRED, CaseState.CONSENT_REVOKED]],

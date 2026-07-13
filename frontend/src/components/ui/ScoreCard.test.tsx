@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import { PillarName, SourceType } from '@msme-credit/shared';
-import type { PillarScore } from '@msme-credit/shared';
+import { PillarName, SourceType } from '../../shared';
+import type { PillarScore } from '../../shared';
 import { ScoreCard } from './ScoreCard';
 
 function createMockPillarScore(overrides: Partial<PillarScore> = {}): PillarScore {

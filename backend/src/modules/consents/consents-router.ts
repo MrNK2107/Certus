@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import { ConsentArtifact, ConsentStatus, AuditActionType } from '@msme-credit/shared';
+import { ConsentArtifact, ConsentStatus, AuditActionType } from '../../shared';
 import { consentStore } from './consent-store';
 import { auditStore } from '../audit/audit-store';
 import { caseStore } from '../cases/case-store';
